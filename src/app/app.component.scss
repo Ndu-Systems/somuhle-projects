@@ -1,0 +1,20 @@
+.app-main {
+  background: #fff;
+  background: rgb(226, 201, 201);
+  padding-bottom: 2rem;
+  box-shadow: 10px -1px 83px -21px rgba(0, 0, 0, 1);
+  width: 80vw;
+  height: 100%;
+
+  section:nth-child(1) {
+    height: 12vh;
+    background: #fff;
+
+  }
+
+  section:nth-child(2) {
+    height: 250vh;
+    background: #fff;
+
+  }
+}

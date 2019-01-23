@@ -1,0 +1,39 @@
+.nav {
+//   background: rgb(211, 190, 190);
+   height: 100%;
+  position: relative;
+
+  .logo {
+    position: absolute;
+    left: 5rem;
+    top: 1rem;
+  }
+
+  .menu {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    width: 50%;
+    text-align: right;
+
+    ul {
+      list-style: none;
+
+      li {
+        display: inline-block;
+        padding: 1vw;
+
+        a{
+            text-transform: uppercase;
+        }
+
+        .contact {
+          background: #C2185B;
+          color: #fff;
+          border-radius: 1000em;
+          padding: .5em 1.5em;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.home-main {
+  height: 100%;
+  background-image: url(../../assets/nav/paint-bg.svg);
+  background-repeat: no-repeat;
+  background-size: 35%;
+  position: relative;
+  padding: 0;
+
+  .box-heading {
+    width: 45%;
+    position: absolute;
+    left: 50%;
+    top: 12%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    h3 {
+      margin-bottom: 3rem;
+      border-bottom: .5px solid #B03A2E;
+      width: 40%;
+      align-self: center;
+      margin-left: 30%;
+    }
+
+    h1 {
+      margin: 1rem;
+    }
+
+    p {
+      font-size: .5em;
+    }
+  }
+
+  .side-bg {
+    position: absolute;
+    width: 50%;
+    right: -1.6%;
+    top: 20%;
+    height: 80%;
+    background-image: url(../../assets/nav/half-circlebg.svg);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: top right;
+    padding: 0;
+   
+  }
+}
