@@ -1,6 +1,6 @@
 .app-main {
   background: #fff;
-  background: rgb(226, 201, 201);
+  background: #C2185B;
   padding-bottom: 2rem;
   box-shadow: 10px -1px 83px -21px rgba(0, 0, 0, 1);
   width: 80vw;
@@ -13,8 +13,13 @@
   }
 
   section:nth-child(2) {
-    height: 160vh;
+    height: 158vh;
     background: #fff;
-
+    clip-path: polygon(0 0, 100% 0%, 100% 96%, 0% 100%);
+  }
+  section:nth-child(3) {
+    height: 60vh;
+    background: #C2185B;
+    clip-path: polygon(0 0, 100% 0%, 100% 96%, 0% 100%);
   }
 }
