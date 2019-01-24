@@ -1,6 +1,6 @@
 .nav {
-//   background: rgb(211, 190, 190);
-   height: 100%;
+  //   background: rgb(211, 190, 190);
+  height: 100%;
   position: relative;
 
   .logo {
@@ -23,15 +23,8 @@
         display: inline-block;
         padding: 1vw;
 
-        a{
-            text-transform: uppercase;
-        }
-
-        .contact {
-          background: #C2185B;
-          color: #fff;
-          border-radius: 1000em;
-          padding: .5em 1.5em;
+        a {
+          text-transform: uppercase;
         }
       }
     }

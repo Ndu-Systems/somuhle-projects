@@ -1,29 +1,50 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 400;
-    font-size: 1em;
-    letter-spacing: 1.7;
-    color: #000;
-    background: #C2185B;
-     padding: 4rem;
-     padding-left: 10%;
+body {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  font-size: 1em;
+  letter-spacing: 1.7;
+  color: #000;
+  background: #C2185B;
+  padding: 4rem;
+  padding-left: 10%;
 }
 
-a{
-    text-decoration: none;
-    color: #000;
+a {
+  text-decoration: none;
+  color: #000;
 }
 
-h1{
-    font-size: 1.5em;
+h1 {
+  font-size: 1.5em;
 }
-img{
-    widows: 100%;
+
+img {
+  widows: 100%;
+}
+
+.btn-primary {
+  background: #C2185B;
+  color: #fff;
+  border-radius: 1000em;
+  padding: .5em 1.5em;
+  box-shadow: 10px -1px 83px -21px rgba(0, 0, 0, 1);
+  
+
+}
+
+.btn-secondary {
+  color: #1565C0;
+  background: rgb(227, 231, 231);
+  border-radius: 1000em;
+  padding: .5em 1.5em;
+  box-shadow: 10px -1px 83px -21px rgba(0, 0, 0, 1);
+
 }
