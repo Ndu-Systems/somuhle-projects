@@ -19,25 +19,55 @@
 }
 
 .stories {
-    clip-path: polygon(0 10%, 100% 0%, 100% 85%, 0% 100%);
-    background: #fff;
+  clip-path: polygon(0 10%, 100% 0%, 100% 85%, 0% 100%);
+  background: #fff;
   padding: 3%;
-}
+  padding-bottom: 10%;
+  position: relative;
 
-.cards {
+  .btn-scroll {
+    text-align: center;
+
+    div {
+      background: red;
+      width: 1px;
+      height: 75px;
+      margin-left: 50%;
+    }
+
+    img {
+      width: 5%;
+      margin-top: 30px;
+      margin-bottom: -18px;
+    }
+
+  }
+
+
+  h1 {
+    text-align: center;
+  }
+
+  .cards {
     display: flex;
-  .card {
-    background: #FBC02D;
-    color: #000;
-    width: 25%;
-    margin: 2.5%;
-    box-sizing: border-box;
-    padding: 1%;
+    padding: 3%;
 
-    p{
+
+
+    .card {
+      background: #FBC02D;
+      color: #000;
+      width: 25%;
+      margin: 1%;
+      box-sizing: border-box;
+      padding: 5% 2%;
+
+      p {
         padding: 5%;
         font-size: .6em;
 
+      }
     }
   }
+
 }

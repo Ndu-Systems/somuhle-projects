@@ -39,6 +39,15 @@ img {
   
 
 }
+.btn-info {
+  background: #1565C0;
+  color: #fff;
+  border-radius: 1000em;
+  padding: .5em 1.5em;
+  box-shadow: 10px -1px 83px -21px rgba(0, 0, 0, 1);
+  
+
+}
 
 .btn-secondary {
   color: #1565C0;
@@ -47,4 +56,11 @@ img {
   padding: .5em 1.5em;
   box-shadow: 10px -1px 83px -21px rgba(0, 0, 0, 1);
 
+}
+
+.txt-box{
+  padding: 5%;
+  border-radius: 1px;
+  border: none;
+  width: 90%;
 }

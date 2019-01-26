@@ -1,0 +1,48 @@
+.footer-container {
+  color: #fff;
+
+  h1 {
+    text-align: center;
+    span {
+      display: block;
+    }
+  }
+
+  p {
+    text-align: center;
+    padding: 2%;
+  }
+
+  .form {
+    display: flex;
+    justify-content: center;
+
+    padding: 2%;
+    width: 70%;
+    margin-left: 15%;
+
+    div {
+      flex: 1;
+      text-align: center;
+    }
+
+    div:nth-child(3) {
+      padding-top: 1%;
+    }
+  }
+
+ .command{
+      display:block;
+      width: 100%;
+      padding: 3%;
+      span{
+          display: inline;
+          font-size: .6em;
+          font-weight: normal;
+      }
+  }
+
+  .fab{
+      margin: 1%;
+  }
+}
