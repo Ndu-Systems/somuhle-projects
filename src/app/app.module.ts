@@ -5,8 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { HomePageComponent } from './home-page/home-page.component';
-import { VisionAndStoriesComponent } from './vision-and-stories/vision-and-stories.component';
-import { FooterComponent } from './footer/footer.component';
+import { VisionAndStoriesComponent } from './home-page/home-sections/vision-and-stories/vision-and-stories.component';
+import { FooterComponent } from './home-page/home-sections/footer/footer.component';
+import { HomeMainComponent } from './home-page/home-sections/home-main/home-main.component';
+
 
 @NgModule({
    declarations: [
@@ -14,7 +16,8 @@ import { FooterComponent } from './footer/footer.component';
       NavigationComponent,
       HomePageComponent,
       VisionAndStoriesComponent,
-      FooterComponent
+      FooterComponent,
+      HomeMainComponent
    ],
    imports: [
       BrowserModule,

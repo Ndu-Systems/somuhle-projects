@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i');
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i");
 
 * {
   margin: 0;
@@ -6,15 +6,22 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
 body {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-weight: 400;
-  font-size: 1em;
   letter-spacing: 1.7;
   color: #000;
-  background: #C2185B;
+  background: #c2185b;
   padding: 3rem;
   padding-left: 10%;
+
+  // @include respond(phone) {
+  //   background: #c2185b;
+  //   padding: 1%;
+  // }
 }
 
 a {
@@ -23,44 +30,75 @@ a {
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 2.5rem;
 }
+p{
+  font-size: 1.5rem;
 
+}
 img {
   widows: 100%;
 }
 
 .btn-primary {
-  background: #C2185B;
+  background: #c2185b;
   color: #fff;
   border-radius: 1000em;
-  padding: .5em 1.5em;
+  padding: 0.5em 1.5em;
   box-shadow: 10px -1px 83px -21px rgba(0, 0, 0, 1);
-  
-
 }
 .btn-info {
-  background: #1565C0;
+  background: #1565c0;
   color: #fff;
   border-radius: 1000em;
-  padding: .5em 1.5em;
+  padding: 0.5em 1.5em;
   box-shadow: 10px -1px 83px -21px rgba(0, 0, 0, 1);
-  
-
 }
 
 .btn-secondary {
-  color: #1565C0;
+  color: #1565c0;
   background: rgb(227, 231, 231);
   border-radius: 1000em;
-  padding: .5em 1.5em;
+  padding: 0.5em 1.5em;
   box-shadow: 10px -1px 83px -21px rgba(0, 0, 0, 1);
-
 }
 
-.txt-box{
+.txt-box {
   padding: 5%;
   border-radius: 1px;
   border: none;
   width: 90%;
+}
+
+/*
+0 - 600px phone
+600px - 900px tab-port
+900px - 1200px tab-land
+1200px - 1800px nornal desktop
+*/
+
+/*
+Rems ==   
+Ems  ==  are the best options for media queries
+em = 16px;
+*/
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media (max-width: 37.5em) {
+      @content;
+    } //600px
+  }
+
+  @if $breakpoint == tab-port {
+    @media (max-width: 56.25em) {
+      @content;
+    } //900px
+  }
+
+  @if $breakpoint == tab-land {
+    @media (max-width: 75em) {
+      @content;
+    } //1200px
+  }
 }

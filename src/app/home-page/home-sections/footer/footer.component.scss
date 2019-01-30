@@ -3,6 +3,7 @@
 
   h1 {
     text-align: center;
+
     span {
       display: block;
     }
@@ -31,21 +32,23 @@
     }
   }
 
- .command{
-      display:block;
-      width: 100%;
-      padding: 3%;
-      span{
-          display: inline;
-          font-size: .6em;
-          font-weight: normal;
-      }
+  .command {
+    display: block;
+    width: 100%;
+    padding: 3%;
+
+    span {
+      display: inline;
+      font-size: .6em;
+      font-weight: normal;
+    }
   }
 
-  .fab{
-      margin: 1%;
+  .fab {
+    margin: 1%;
   }
-  a{
-      color: white;
+
+  a {
+    color: white;
   }
 }
