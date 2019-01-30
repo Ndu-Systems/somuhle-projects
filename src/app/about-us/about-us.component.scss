@@ -107,7 +107,7 @@
         padding: 2%;
         background: #263238;
         position: relative;
-        margin: 1%;
+        margin: 2%;
         height: 20rem;
 
         h1 {
@@ -122,7 +122,44 @@
         }
       }
     }
-
-
   }
+
+  section:nth-child(5) {
+    position: relative;
+    background: #FBF2F6;
+
+    h1 {
+      text-align: center;
+      padding: 4%;
+    }
+
+    .flex {
+      display: flex;
+
+      div {
+        flex: 1;
+        padding: 2%;
+        position: relative;
+
+
+        h1 {
+          font-size: 1.5rem;
+          color: #000;
+          text-align-last: left;
+        }
+        p{
+          font-size: 1.5rem;
+
+        }
+      }
+    }
+    .img-scroll{
+      text-align: center;
+      padding-top: 5%;
+      img{
+        width: 3rem;
+      }
+    }
+  }
+
 }

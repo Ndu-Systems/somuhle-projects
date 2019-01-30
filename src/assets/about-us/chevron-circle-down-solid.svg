@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120.7" height="120.7" viewBox="0 0 120.7 120.7">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.192" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c0392b"/>
+      <stop offset="1" stop-color="#d800bb"/>
+    </linearGradient>
+    <filter id="chevron-circle-down-solid" x="0" y="0" width="120.7" height="120.7" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="11" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#chevron-circle-down-solid)">
+    <path id="chevron-circle-down-solid-2" data-name="chevron-circle-down-solid" d="M62.7,35.35A27.35,27.35,0,1,1,35.35,8,27.345,27.345,0,0,1,62.7,35.35ZM37.225,47.911l9.259-9.259,5.684-5.684a2.636,2.636,0,0,0,0-3.739l-1.875-1.875a2.636,2.636,0,0,0-3.739,0l-11.2,11.2-11.2-11.2a2.636,2.636,0,0,0-3.739,0l-1.875,1.875a2.636,2.636,0,0,0,0,3.739L33.475,47.911A2.649,2.649,0,0,0,37.225,47.911Z" transform="translate(25 17)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
