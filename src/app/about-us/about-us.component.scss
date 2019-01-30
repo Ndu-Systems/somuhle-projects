@@ -58,9 +58,10 @@
     }
 
     div:nth-child(1) {
-      h1{
+      h1 {
         margin-bottom: 1rem;
       }
+
       p {
         font-size: 1rem;
         padding: 1%;
@@ -68,24 +69,60 @@
     }
 
     div:nth-child(2) {
-    background: #263238;
-    position: relative;
-    h1{
-      position: absolute;
-      font-size: 4rem;
+      background: #263238;
+      position: relative;
+
+      h1 {
+        position: absolute;
+        font-size: 4rem;
+      }
+
+      h1:nth-child(1) {
+        color: #C2185B;
+        top: 30%;
+
+      }
+
+      h1:nth-child(2) {
+        color: #fff;
+        background: #C2185B;
+        top: 54%;
+        right: -4.1rem;
+        padding: .5rem 5rem;
+      }
     }
-    h1:nth-child(1){
-      color: #C2185B;
-      top: 30%;
-      
+  }
+
+  section:nth-child(4) {
+    h1 {
+      text-align: center;
+      padding: 4%;
     }
-    h1:nth-child(2){
-      color: #fff;
-      background: #C2185B;
-      top: 54%;
-      right: -4.1rem;
-      padding: .5rem 5rem;
+
+    .flex {
+      display: flex;
+
+      div {
+        flex: 1;
+        padding: 2%;
+        background: #263238;
+        position: relative;
+        margin: 1%;
+        height: 20rem;
+
+        h1 {
+          position: absolute;
+          top: 40%;
+          font-size: 1.5rem;
+          border-bottom: 3px solid #C2185B;
+          color: #fff;
+          left: 50%;
+          transform: translate(-50%, -50%);
+
+        }
+      }
     }
-    }
+
+
   }
 }
