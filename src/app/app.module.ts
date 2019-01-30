@@ -8,6 +8,8 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { VisionAndStoriesComponent } from './home-page/home-sections/vision-and-stories/vision-and-stories.component';
 import { FooterComponent } from './home-page/home-sections/footer/footer.component';
 import { HomeMainComponent } from './home-page/home-sections/home-main/home-main.component';
+import { ServicesComponent } from './services/services.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import { HomeMainComponent } from './home-page/home-sections/home-main/home-main
       HomePageComponent,
       VisionAndStoriesComponent,
       FooterComponent,
-      HomeMainComponent
+      HomeMainComponent,
+      ServicesComponent,
+      AboutUsComponent
    ],
    imports: [
       BrowserModule,

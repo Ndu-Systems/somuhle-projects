@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="748.5" height="531" viewBox="0 0 748.5 531">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.535" y1="0.5" x2="-0.201" y2="1.29" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c2185b"/>
+      <stop offset="1" stop-color="#eceff1"/>
+    </linearGradient>
+    <filter id="adeolu-eletu-38649-unsplash" x="0" y="0" width="748.5" height="531" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="11" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#adeolu-eletu-38649-unsplash)">
+    <rect id="adeolu-eletu-38649-unsplash-2" data-name="adeolu-eletu-38649-unsplash" width="682.5" height="465" transform="translate(33 25)" opacity="0.4" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

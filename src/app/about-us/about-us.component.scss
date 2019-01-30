@@ -1,0 +1,47 @@
+.about-main {
+  position: relative;
+  background: #fff;
+
+  section:nth-child(1) {
+    background-image: url(../../assets/about-us/About-Us.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 40%;
+    padding: 2rem;
+
+    h1 {
+      text-align: center;
+      margin-top: 2rem
+    }
+
+    .img {
+      width: 100%;
+      text-align: center;
+
+      img {
+        width: 10rem;
+      }
+    }
+  }
+
+  section:nth-child(2) {
+    display: flex;
+    div{
+      flex: 1;
+      padding: 2%;
+    }
+    div:nth-child(1) {
+     img{
+       width: 100%;
+     }
+    }
+    div:nth-child(2) {
+      ul{
+        li{
+          font-size: 1.5rem;
+          padding: 2%;
+        }
+      }
+    }
+  }
+}
