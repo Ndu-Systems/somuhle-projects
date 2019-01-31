@@ -168,4 +168,18 @@
       }
     }
   }
+
+  section:nth-child(6) {
+    h1 {
+      text-align: center;
+      padding: 4%;
+      font-size: 1rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 30% 30% 30%;
+      padding: 3rem;
+    }
+  }
 }
