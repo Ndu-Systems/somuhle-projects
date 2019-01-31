@@ -1,14 +1,14 @@
 .about-main {
   position: relative;
   background: #fff;
-  padding: 4%;
+  // padding: 4%;
 
   section:nth-child(1) {
     background-image: url(../../assets/about-us/About-Us.svg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: 40%;
-    padding: 2rem;
+    padding: 5rem;
 
     h1 {
       text-align: center;
@@ -87,7 +87,7 @@
         color: #fff;
         background: #C2185B;
         top: 54%;
-        right: -4.1rem;
+        right: 0;
         padding: .5rem 5rem;
       }
     }
@@ -135,6 +135,7 @@
 
     .flex {
       display: flex;
+      width: 80%;
 
       div {
         flex: 1;
@@ -159,6 +160,16 @@
       img{
         width: 3rem;
       }
+    }
+    .side-image{
+      position: absolute;
+      right: -1.5rem;
+      top: -10rem;
+      text-align: right;
+     width: 40%;
+     img{
+       width: 25rem
+     }
     }
   }
 
