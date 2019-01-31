@@ -170,6 +170,7 @@
   }
 
   section:nth-child(6) {
+    padding: 5rem;
     h1 {
       text-align: center;
       padding: 4%;
@@ -179,7 +180,24 @@
     .grid {
       display: grid;
       grid-template-columns: 30% 30% 30%;
-      padding: 3rem;
+      // padding: 3rem;
+      div{
+        position: relative;
+        h1{
+          position: absolute;
+          top: 40%;
+          font-size: 1.5rem;
+          color: #fff;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+    }
+    .long-logo{
+      text-align: center;
+      img{
+        width:70% ;
+      }
     }
   }
 }
