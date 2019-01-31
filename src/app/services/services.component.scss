@@ -91,7 +91,7 @@
   }
 
   section:nth-child(4){
-    height: 40vh;
+    height: 30vh;
     .text-box{
       position: absolute;
       width: 120.2rem;
@@ -141,6 +141,43 @@
           height: 10vh;
           padding-left: 11rem;     
           border-right: 3px solid $pink-color;   
+          box-shadow: -1px 14px 25px -7px rgba(0, 0, 0, 0.15);
+        }
+     
+      }
+    }
+
+    .flex-2{
+      display: flex;
+      
+      div {
+        flex:1;
+        padding: 2%;
+        position: relative;
+        
+        img{
+          height: 144px;
+        }        
+      }
+
+      .paragraph{
+        height: 20vh;
+        margin-left: 5rem;
+        border-right: 3px solid $pink-color; 
+        h1{
+          font-size: 1.5rem;
+          font-weight: normal;
+        }
+      }
+
+      .image{     
+
+        .header-main{          
+          font-size: 2rem;
+          padding-top: 4rem;
+          height: 10vh;
+          padding-left: 11rem;     
+          border-left: 3px solid $pink-color;   
           box-shadow: -1px 14px 25px -7px rgba(0, 0, 0, 0.15);
         }
      
