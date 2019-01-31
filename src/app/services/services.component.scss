@@ -1,27 +1,93 @@
+@import "../../assets/sass/variables";
+
 .services-main {
-    position: relative;
-    background: #fff;
-  
-    section:nth-child(1) {
-      background-image: url(../../assets/about-us/About-Us.svg);
-      background-repeat: no-repeat;
-      background-position: top;
-      background-size: 40%;
-      padding: 2rem;
-  
-      h1 {
-        text-align: center;
-        margin-top: 2rem
+  position: relative;
+  background: #fff;
+
+  section:nth-child(1) {
+    background-image: url(../../assets/our-services/Our_Services..svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 40%;
+    padding: 2rem;
+
+    h1 {
+      text-align: center;
+      margin-top: 2rem
+    }
+
+    .img {
+      width: 100%;
+      text-align: center;
+
+      img {
+        width: 10rem;
       }
-  
-      .img {
-        width: 100%;
+    }
+  }
+
+
+
+  section:nth-child(2) {
+    .row {
+      text-transform: capitalize;
+      backface-visibility: hidden;
+
+      .text-box {
+        position: absolute;
+        left: 25vw;
         text-align: center;
-  
-        img {
-          width: 10rem;
+      }
+
+      .header-main {
+        display: block;
+      }
+
+      .header-sub {
+        display: block;
+        color: $pink-color;
+      }
+    }
+
+    height: 20vh;
+  }
+
+  section:nth-child(3){
+    height: 60vh;
+    .flex{
+      display: flex;
+
+      div{
+        flex: 1;
+        padding: 2%;
+        background: $white-color;
+        position: relative;
+        margin: 7%;
+        margin-top:2%;      
+        height: 32.9rem;
+        text-align: center;
+        box-shadow: -3px 3px 39px 0px rgba(0,0,0,0.75);
+        img{
+          height: 144px;
+        }
+
+        h1{ 
+          border-top: 3px solid $pink-color;         
+          color: $black-color;
+          margin-top: 3rem;   
+        }
+
+        .header-main{
+          display: block;
+          font-size: 1.5rem;
+          font-weight: 400;
+        }
+        .header-sub{
+          margin-top: 3vh;
+          display: block;
+          font-size: 1rem;
         }
       }
     }
   }
-  
+}
