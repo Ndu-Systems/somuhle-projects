@@ -1,7 +1,6 @@
 .about-main {
   position: relative;
   background: #fff;
-  // padding: 4%;
 
   section:nth-child(1) {
     background-image: url(../../assets/about-us/About-Us.svg);
@@ -12,7 +11,7 @@
 
     h1 {
       text-align: center;
-      margin-top: 2rem
+      margin-top: 2rem;
     }
 
     .img {
@@ -78,17 +77,16 @@
       }
 
       h1:nth-child(1) {
-        color: #C2185B;
+        color: #c2185b;
         top: 30%;
-
       }
 
       h1:nth-child(2) {
         color: #fff;
-        background: #C2185B;
+        background: #c2185b;
         top: 54%;
         right: 0;
-        padding: .5rem 5rem;
+        padding: 0.5rem 5rem;
       }
     }
   }
@@ -114,11 +112,10 @@
           position: absolute;
           top: 40%;
           font-size: 1.5rem;
-          border-bottom: 3px solid #C2185B;
+          border-bottom: 3px solid #c2185b;
           color: #fff;
           left: 50%;
           transform: translate(-50%, -50%);
-
         }
       }
     }
@@ -126,7 +123,7 @@
 
   section:nth-child(5) {
     position: relative;
-    background: #FBF2F6;
+    background: #fbf2f6;
 
     h1 {
       text-align: center;
@@ -142,35 +139,33 @@
         padding: 2%;
         position: relative;
 
-
         h1 {
           font-size: 1.5rem;
           color: #000;
           text-align-last: left;
         }
-        p{
+        p {
           font-size: 1.5rem;
-
+        }
+        .img-scroll {
+          text-align: center;
+          padding-top: 15%;
+        
+          img {
+            width: 4.5rem;
+          }
         }
       }
     }
-    .img-scroll{
-      text-align: center;
-      padding-top: 5%;
-      img{
-        width: 3rem;
-      }
-    }
-    .side-image{
+    .side-image {
       position: absolute;
       right: -1.5rem;
       top: -10rem;
       text-align: right;
-     width: 40%;
-     img{
-       width: 25rem
-     }
+      width: 40%;
+      img {
+        width: 25rem;
+      }
     }
   }
-
 }
