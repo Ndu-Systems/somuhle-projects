@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { FormsModule,  ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
@@ -11,6 +11,7 @@ import { HomeMainComponent } from './home-page/home-sections/home-main/home-main
 import { ServicesComponent } from './services/services.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { HttpClientModule ,HttpClient} from '@angular/common/http';
 
 
 @NgModule({
@@ -27,9 +28,12 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
    ],
    imports: [
       BrowserModule,
-      AppRoutingModule
+      AppRoutingModule,
+      FormsModule,
+      ReactiveFormsModule ,
+      HttpClientModule
    ],
-   providers: [],
+   providers: [HttpClient],
    bootstrap: [
       AppComponent
    ]
