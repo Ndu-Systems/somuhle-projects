@@ -1,0 +1,66 @@
+.about-main {
+  position: relative;
+  background: #fff;
+  padding: 3%;
+
+
+  section:nth-child(1) {
+    background-image: url(../../assets/contact-us/Contact-Us.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 40%;
+    padding: 5rem;
+
+    h1 {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .img {
+      width: 100%;
+      text-align: center;
+
+      img {
+        width: 10rem;
+      }
+    }
+  }
+
+  section:nth-child(2) {
+    display: flex;
+    box-shadow: 10px -1px 83px -21px rgba(0, 0, 0, 1);
+
+
+    div {
+      padding: 2%;
+      box-sizing: border-box;
+    }
+
+    div:nth-child(1) {
+      flex: 2;
+
+    }
+
+    div:nth-child(2) {
+      flex: 1;
+      background: #C2185B;
+      color: #fff;
+      padding: 10% 2%;
+
+      p {
+        font-size: 1rem;
+        padding: 3% 1%;
+      }
+
+      hr {
+        border: 1px solid #fff;
+      }
+
+      a {
+        color: #fff;
+      }
+
+    }
+  }
+
+}
