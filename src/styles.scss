@@ -20,10 +20,9 @@ body {
   padding: 3rem;
   padding-left: 10%;
 
-  // @include respond(phone) {
-  //   background: #c2185b;
-  //   padding: 1%;
-  // }
+  @media only screen and (max-width: 900px) {
+    padding: .5rem;
+  }
 }
 
 a {

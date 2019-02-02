@@ -25,14 +25,24 @@ $top : 10%;
       margin: 0 auto;
       text-align: center;
 
+      @media only screen and (max-width: 900px) {
+        font-size: 1.5rem;
+        width: 80%;
+      }
+
     }
 
     p {
-      font-size: 1rem;
+      font-size: 1.2rem;
       width: 50%;
       margin: 0 auto;
       padding: 2%;
       line-height: 2;
+      
+      @media only screen and (max-width: 900px) {
+        width: 70%;
+        
+      }
     }
   }
 
@@ -50,6 +60,10 @@ $top : 10%;
     img {
       width: 5%;
       margin-top: 0px;
+      
+      @media only screen and (max-width: 900px) {
+       overflow: hidden;
+      }
     }
   }
 
@@ -103,6 +117,11 @@ $top : 10%;
       width: 50%;
       padding-top: 5%;
 
+      @media only screen and (max-width: 600px) {
+        width: 100%;
+
+      }
+
       h1 {
         text-align: left;
         font-size: 3.5rem;
@@ -131,24 +150,24 @@ $top : 10%;
       text-align: center;
 
       .paint {
-      margin:  0 auto;
-      width: 40%;
-    
+        margin: 0 auto;
+        width: 40%;
+
         img {
           width: 70%;
         }
       }
 
-      
-  .mission-box {
-    margin:  0 auto;
-    width: 80%;
-    background-image: url(../../../../assets/nav/vision-and-mission.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-    
+
+      .mission-box {
+        margin: 0 auto;
+        width: 80%;
+        background-image: url(../../../../assets/nav/vision-and-mission.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+
     }
   }
 }
