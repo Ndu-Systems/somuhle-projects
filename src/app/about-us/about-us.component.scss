@@ -150,7 +150,7 @@
         .img-scroll {
           text-align: center;
           padding-top: 15%;
-        
+
           img {
             width: 4.5rem;
           }
@@ -174,29 +174,57 @@
     h1 {
       text-align: center;
       padding: 4%;
-      font-size: 1rem;
+      font-size: 1.5rem;
     }
 
     .grid {
       display: grid;
       grid-template-columns: 30% 30% 30%;
+      text-align: center;
+      grid-gap: 2%;
       // padding: 3rem;
-      div{
+      div {
         position: relative;
-        h1{
-          position: absolute;
-          top: 40%;
+        padding: 3%;
+        img {
+          width: 90%;
+        }
+        .card-link {
+
+          display: flex;
+          div{
+            flex: 1;
+            padding: 0;
+            h1{
+              margin: 0;
+            }
+          }
+          div:nth-child(1) {
+            flex: 2;
+
+          }
+          div:nth-child(2) {
+            flex: 1;
+            text-align: right;
+            padding-top: 2%;
+            padding-right: 2%;
+            img{
+              width:20%;
+            }
+          }
+        }
+        h1 {
+          // position: absolute;
           font-size: 1.5rem;
-          color: #fff;
-          left: 50%;
-          transform: translate(-50%, -50%);
+          color: #000;
+          text-align: left;
         }
       }
     }
-    .long-logo{
+    .long-logo {
       text-align: center;
-      img{
-        width:70% ;
+      img {
+        width: 70%;
       }
     }
   }
