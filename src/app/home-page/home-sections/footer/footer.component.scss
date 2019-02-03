@@ -7,11 +7,19 @@
     span {
       display: block;
     }
+
+    @media only screen and (max-width: 900px) {
+      font-size: 1.6rem;
+    }
   }
 
   p {
     text-align: center;
     padding: 2%;
+
+    @media only screen and (max-width: 900px) {
+      font-size: 1.5rem;
+    }
   }
 
   .form {
@@ -22,6 +30,25 @@
     width: 70%;
     margin-left: 15%;
 
+    @media only screen and (max-width: 900px) {
+      flex-direction: column;
+    }
+
+    @media only screen and (max-width: 900px) {
+
+      .txt-box {
+        width: 100%;
+        margin: 1%;
+      }
+
+    }
+
+    .btn-info {
+      @media only screen and (max-width: 900px) {
+        font-size: 1.5rem;
+      }
+    }
+
     div {
       flex: 1;
       text-align: center;
@@ -29,6 +56,9 @@
 
     div:nth-child(3) {
       padding-top: 1%;
+      @media only screen and (max-width: 900px) {
+padding: 9%;
+      }
     }
   }
 

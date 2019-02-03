@@ -2,12 +2,10 @@
 .home-page-main{
 
   section:nth-child(1) {
-    height: 158vh;
     background: #fff;
     clip-path: polygon(0 0, 100% 0%, 100% 96%, 0% 100%);
   }
   section:nth-child(2) {
-    // height: 100vh;
     background: #C2185B;
     clip-path: polygon(0 0, 100% 0%, 100% 96%, 0% 100%);
   }
