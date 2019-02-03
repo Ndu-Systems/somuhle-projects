@@ -8,9 +8,24 @@
     left: 5rem;
     top: 1.7rem;
 
-    img{
+    img {
       width: 15vw;
+
+      @media only screen and (max-width: 900px) {
+        display: none;
+      }
     }
+
+    .mobile-logo {
+      display: none;
+      width: 80%;
+      float: left;
+
+      @media only screen and (max-width: 900px) {
+        display: block;
+      }
+    }
+
   }
 
   .menu {
@@ -21,6 +36,10 @@
     text-align: right;
 
     ul {
+      @media only screen and (max-width: 900px) {
+        display: none;
+      }
+
       list-style: none;
 
       li {
@@ -31,6 +50,16 @@
           text-transform: uppercase;
           font-size: 1vw;
         }
+      }
+    }
+
+    .mobile-logo {
+      display: none;
+      width: 26%;
+      float: right;
+
+      @media only screen and (max-width: 900px) {
+        display: block;
       }
     }
   }
