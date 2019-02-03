@@ -115,6 +115,10 @@
   display: grid;
   grid-template-columns: 50% 50%;
   padding: 3%;
+  @media only screen and (max-width: 900px) {
+    grid-template-columns: 100%;
+
+  }
   div{
     padding: 5%;
   }
