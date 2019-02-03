@@ -20,7 +20,27 @@
 
       </li>
     </ul>
-    <img src="assets/mobile/mobile-menu-btn.svg" class="mobile-menu" alt="">
+
+    <img src="assets/mobile/mobile-menu-btn.svg"  (click)="toggleNav()" class="mobile-menu" alt="">
 
   </div>
 </div>
+
+<ul class="mobile-nav-items" *ngIf="showNav">
+  <li class="logo-li">
+    <a routerLink=""  (click)="toggleNav()" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"> SOMUHLE PROJECTS</a>
+    <span (click)="toggleNav()" class="close"><img src="assets/mobile/nav-close.svg" alt=""></span>
+  </li>  
+  <li>
+    <a routerLink=""  (click)="toggleNav()" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Home</a>
+  </li>
+  <li>
+    <a routerLink="about-us"  (click)="toggleNav()" routerLinkActive="active">About Us</a>
+  </li>
+  <li>
+    <a routerLink="our-services"  (click)="toggleNav()" routerLinkActive="active">Services</a>
+  </li>
+  <li>
+    <a class="btn-primary"  (click)="toggleNav()" routerLink="contact-us" routerLinkActive="active">Contact Us</a>
+  </li>
+</ul>

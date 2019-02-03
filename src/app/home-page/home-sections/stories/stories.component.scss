@@ -1,0 +1,104 @@
+
+.stories {
+    background: #fff;
+    background-image: url(../../../../assets/nav/stories-bgf.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 30%;
+    padding: 3%;
+    padding-bottom: 10%;
+    position: relative;
+    padding-top: 10%;
+  
+    @media only screen and (max-width: 900px) {
+      padding-bottom: 20%;
+    }
+  
+    .btn-scroll {
+      text-align: center;
+  
+      div {
+        background: red;
+        width: 1px;
+        height: 75px;
+        margin-left: 50%;
+  
+        @media only screen and (max-width: 900px) {
+          display: none;
+        }
+      }
+  
+      img {
+        width: 5%;
+        margin-top: 30px;
+        margin-bottom: -18px;
+  
+        @media only screen and (max-width: 900px) {
+          width: 24%;
+          margin-top: 14rem;
+          margin-bottom: 6rem;
+        }
+      }
+  
+    }
+  
+  
+    h1 {
+      text-align: center;
+      margin-bottom: 5%;
+    }
+  
+    .cards {
+      display: flex;
+      padding: 3%;
+  
+      @media only screen and (max-width: 900px) {
+        flex-direction: column;
+      }
+  
+  
+      .card {
+        background: #FBC02D;
+        color: #000;
+        width: 25%;
+        margin: 1%;
+        box-sizing: border-box;
+        padding: 5% 2%;
+        position: relative;
+  
+        @media only screen and (max-width: 900px) {
+          padding: 10% 2%;
+          margin-bottom: 10%;
+  
+        }
+  
+        .icon {
+          position: absolute;
+          left: -3.5rem;
+          top: -3.5rem;
+  
+          @media only screen and (max-width: 900px) {
+            left: 35%;
+            top: -4rem;
+  
+          }
+  
+          img {
+            width: 60%;
+          }
+        }
+  
+        @media only screen and (max-width: 900px) {
+          width: 100%;
+        }
+  
+        p {
+          padding: 5%;
+          font-size: 1.5rem;
+  
+        }
+      }
+    }
+  
+  }
+  

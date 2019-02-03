@@ -1,13 +1,32 @@
+.home-page-main {
 
-.home-page-main{
 
-  section:nth-child(1) {
+
+  .section-home-main{
     background: #fff;
-    clip-path: polygon(0 0, 100% 0%, 100% 96%, 0% 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 94%, 0% 100%);
+clip-path: polygon(0 0, 100% 0%, 100% 94%, 0% 100%);
+
+@media only screen and (max-width: 900px) {
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 98%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 98%, 0% 100%);
+}
+
   }
-  section:nth-child(2) {
+  .section-vision{
     background: #C2185B;
-    clip-path: polygon(0 0, 100% 0%, 100% 96%, 0% 100%);
+    
   }
-  
+  .section-stories{
+    -webkit-clip-path: polygon(0 9%, 100% 0%, 100% 90%, 0% 100%);
+    clip-path: polygon(0 9%, 100% 0%, 100% 90%, 0% 100%);
+
+    @media only screen and (max-width: 900px) {
+      -webkit-clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0% 100%);
+      clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0% 100%);
+    }
+  }
+  .section-footer{
+    
+  }
 }
