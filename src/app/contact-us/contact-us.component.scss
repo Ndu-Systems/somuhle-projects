@@ -34,8 +34,8 @@
 
     @media only screen and (max-width: 900px) {
       flex-direction: column;
-    width: 100%;
-    margin-left: 0%;
+      width: 100%;
+      margin-left: 0%;
 
 
     }
@@ -60,9 +60,10 @@
 
       .flex-controls {
         display: flex;
+
         @media only screen and (max-width: 900px) {
-          flex-direction: column;  
-    
+          flex-direction: column;
+
         }
 
         div {
@@ -84,10 +85,11 @@
         margin: 2%;
         box-shadow: 10px -1px 83px -21px rgba(0, 0, 0, 1);
         font-size: 1rem;
+
         @media only screen and (max-width: 900px) {
-width: 100%;
-padding: 2%;
-font-size: 1.5rem;
+          width: 100%;
+          padding: 2%;
+          font-size: 1.5rem;
 
 
         }
