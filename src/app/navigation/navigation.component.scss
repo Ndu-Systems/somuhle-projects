@@ -5,7 +5,7 @@
 
   .logo {
     position: absolute;
-    left: 5rem;
+    left: 3rem;
     top: 1.7rem;
 
     img {
@@ -35,6 +35,10 @@
     width: 50%;
     text-align: right;
 
+    @media only screen and (max-width: 900px) {
+      top: 1rem;
+    }
+
     ul {
       @media only screen and (max-width: 900px) {
         display: none;
@@ -53,9 +57,9 @@
       }
     }
 
-    .mobile-logo {
+    .mobile-menu {
       display: none;
-      width: 26%;
+      width: 20%;
       float: right;
 
       @media only screen and (max-width: 900px) {

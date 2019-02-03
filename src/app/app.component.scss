@@ -6,13 +6,18 @@
   width: 80vw;
   height: 100%;
   @media only screen and (max-width: 900px) {
-    width: 90%;
+    width: 100%;
   margin: 0 auto;
   }
 
   section:nth-child(1) {
     height: 12vh;
     background: #fff;
+    
+    @media only screen and (max-width: 900px) {
+    height: 7vh;
+
+    }
 
   }
 
