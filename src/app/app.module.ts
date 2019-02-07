@@ -12,7 +12,7 @@ import { HomeMainComponent } from './home-page/home-sections/home-main/home-main
 import { ServicesComponent } from './services/services.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
-import { HttpClientModule ,HttpClient} from '@angular/common/http';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 
 
 @NgModule({
